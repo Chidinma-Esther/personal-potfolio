@@ -1,0 +1,137 @@
+*{
+   padding: 0; 
+   margin: 0;
+   box-sizing:border-box ;
+}
+body{
+background-color: purple;
+color:#e7eaee;
+}
+h1{
+    font-size: 30px;
+    padding: 8px 6px;
+}
+h3{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+p{
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 6px;
+}
+/* first section */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(151, 33, 151);
+    padding: 40px 0 3px 0;
+}
+.nav{
+    padding-right: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#e7eaee;
+    padding-left: 30px;
+}
+.nav:hover{
+    color:rgb(248, 77, 248); 
+    border: 1px solid;
+    border-radius: 5px;
+}
+.logo{
+  padding-left: 30px;
+}
+/* second section */
+.intro-pic{
+    border-radius:75px;
+mix-blend-mode: normal;
+    width: 250px;
+    height: 220px;
+}
+.intro{
+    display: flex;
+    padding:80px 50px 0 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.intro-content{
+    width: 50%;
+    border-left:3px solid rgb(248, 77, 248);
+    border-top:3px solid rgb(248, 77, 248);
+    box-shadow: 2px 4px 8px 1.5px rgb(250, 123, 250);
+    border-radius: 15px;
+padding-left: 10px;
+padding-bottom: 5px;
+}
+
+
+.intro-image{
+    width: 30%;
+    padding-left: 150px;
+    padding-bottom: 5px;
+}
+/* third section */
+.skills-and-project{
+    padding: 100px 30px 15px 30px;
+}
+ .skills{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+padding-bottom: 80px;
+ }       
+.skill{
+    font-size: 27px;
+    padding: 10px  30px;
+   
+}
+.teach{
+    padding-left: 23px;
+    font-size: 17px;
+}
+.teach-1{
+    padding-left: 52px;
+    font-size: 17px;
+}
+.dot{
+    color:rgb(248, 77, 248); 
+    font-size: 38px;
+}
+.skills-image{
+    /* padding-top: 30px; */
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+}
+.skills-link{
+    text-decoration: none;
+    font-size: 18px;
+    color:#e7eaee;
+}
+.skills-link:hover{
+    color:rgb(248, 77, 248)
+}
+.project{
+    font-size: 20px;
+    width: 300px;
+    /* padding-left: 52px; */
+    font-size: 17px;
+}
+/* fourth section */
+.contact{
+    padding: 30px 40px;
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.circled-c{
+    color: #e7eaee;
+    width: 17px;
+    padding-right: 3px;
+    
+}
